@@ -20,7 +20,7 @@ Sempre que alguém vai começar a trabalhar em um projeto precisa escolher ou en
 Quando isso acontece é comum ter um desafio para o time porque não há um consenso claro sobre padrões a serem seguidos.
 É comum surgirem muitos nomes de metodologias e frameworks, mas é totalmente possível seguir metodologias e utilizar frameworks de formas diferentes.
 
-Essa segmentação no mundo PHP sempre foi um impasse até que a iniciativa do PHP-FIG trouxe a luz alguns padrões para algumas coisas. Estamos agora numa nova fase do PHP onde o fluxo de trabalho precisa ser revisto e o PHP da década passada erradicado dos projetos modernos. A imagem abaixo pode ser vista em seu contexto original [aqui](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) onde ela é usada para explicar o funcionamento de uma aplicação feita usando Expresse, e pasmem, ela não é muito diferente do que você verá em ferramentas como CakePHP, Laravel, Symfony, Zends, Slim e etc.
+Essa segmentação no mundo PHP sempre foi um impasse até que a iniciativa do PHP-FIG trouxe a luz alguns padrões para algumas coisas. Estamos agora numa nova fase do PHP onde o fluxo de trabalho precisa ser revisto e o PHP da década passada erradicado dos projetos modernos. A imagem abaixo pode ser vista em seu contexto original [aqui](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) onde ela é usada para explicar o funcionamento de uma aplicação feita usando Express, e pasmem, ela não é muito diferente do que você verá em ferramentas como CakePHP, Laravel, Symfony, Zends, Slim e etc.
 
 ![image](https://cdn-images-1.medium.com/max/800/0*VvmaP5PBCo-6n8sU.png)
 
@@ -28,7 +28,9 @@ A web está consolidada. É isso! Achamos nosso jeito de trabalhar. Um projeto e
 
 ### 1. Arquitetura em primeiro lugar
 
-Não importa o tamanho da sua aplicação. Para ter um controle pleno dela o ideal é que você tenha, no mínimo, uma distribuição como a demonstrada na imagem acima. Mais pra baixo no artigo vou explicar melhor as razões disso, o que é importante entender agora é que as PSR's devem fazer parte da sua vida para você poder ser uma pessoa mais feliz. Além disso, a ideia de separar sua aplicação no formato em que está descrito na imagem é simplesmente muito boa. Você vai poder usufruir de recursos como middlewares, distribuir melhor suas classes, esclarecer vários conceitos de organização e etc. Do que você precisa para fazer isso? A maioria dos grandes frameworks de mercado seguem esse padrão, mas vamos ver a seguir princípios básicos que podem ajudar a entender como e porque essas ferramentas funcionam.
+Não importa o tamanho da sua aplicação. Para ter um controle pleno dela o ideal é que você tenha, no mínimo, uma distribuição como a demonstrada na imagem acima. Mais pra baixo no artigo vou explicar melhor as razões disso, o que é importante entender agora é que as PSR's devem fazer parte da sua vida para você poder ser uma pessoa mais feliz. Além disso, a ideia de separar sua aplicação no formato em que está descrito na imagem é simplesmente muito boa. Você vai poder usufruir de recursos como middlewares, distribuir melhor seus recursos, esclarecer vários conceitos de organização e etc. Do que você precisa para fazer isso? A maioria dos grandes frameworks de mercado seguem esse padrão, mas vamos ver a seguir princípios básicos que podem ajudar a entender como e porque essas ferramentas funcionam.
+
+Doravante farei referências a Orientação a Objetos, que é a abordagem com a qual tenho experiência com PHP e é, provavelmente o paradigma mais usado para criar projetos em PHP atualmente. Você pode adequar se julgar conveniente a uma abordagem procedural ou funcional. Fica a seu critério. Do ponto de vista do texto não fará tanta diferença qual paradigma será aplicado, apenas os exemplos que precisarão de adaptação por parte do leitor.
 
 #### 1.1. Routes (Rotas)
 
