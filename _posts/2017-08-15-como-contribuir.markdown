@@ -3,12 +3,19 @@ layout: post
 title:  "Como contribuir!"
 date:   2017-08-15 21:43:19 -0300
 categories: ajuda
-author: "William Correa"
+author: 
+  name: "William Correa"
+  email: "wilcorrea@gmail.com"
+  author_url: "https://wilcorrea.rocks"
+twitter: "https://twitter.com/wilcorrea"
+facebook: "https://fb.com/wilcorrea.rocks"
+telegram: "https://t.me/wilcorrea"
+gravatar: true
 ---
 Sejam bem-vindos ao nosso blog!
 
 Estamos muito felizes de compartilhar com vocês os conhecimentos que são discutidos e trocados no nosso grupo.
-Nossa [comununidade no Telegram](https://t.me/phpbrasil) tem mais de 1.7k de membros e há troca de mensagens com volumes impressionantes. São abordados temas desde os mais básicos sobre configuração de ambiente e programação até discussão avançadas sobre abstração e metodologias de engenharia e arquitetura de software. Com esse canal de publicação vamos publicar materiais que visam a deixar disponível de forma organizada os assuntos abordados.
+Nossa [comunidade no Telegram](https://t.me/phpbrasil) tem mais de 1.7k de membros e há troca de mensagens com volumes impressionantes. São abordados temas desde os mais básicos sobre configuração de ambiente e programação até discussões avançadas sobre abstração e metodologias de engenharia e arquitetura de software. Com esse canal vamos publicar materiais que visam a deixar disponível de forma organizada os assuntos abordados.
 
 Se você chegou até aqui está procurando saber como participar do blog e vou tentar ser o mais breve e prático possível.
 
